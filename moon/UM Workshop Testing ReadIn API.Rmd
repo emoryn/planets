@@ -1,0 +1,17 @@
+---
+title: "UM Workshop Testing reading in API"
+author: "emory"
+date: "2023-02-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(here)
+```
+```{r}
+api_key <- read.table(here("moon/c.passwd")) 
+
+api_key$V1
+
+```
+
